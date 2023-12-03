@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Poppins&family=Roboto:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+body{
+  background: url('bgstars.jpeg');
+}
+
+iframe{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 45%;
+  z-index: -99999;
+  
+}
+
+.Model{
+  height: 100px; 
+  width: 100px;
+}
+
+header{
+  box-shadow: 1px 1px 10px gray;
+  width: 100vw;
+  height: 12vh;
+  padding: 0 11%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.navbarlist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+
+.navbarlist li{
+  list-style: none;
+}
+
+.navbarlist li a, .initials{
+  text-decoration: none;
+}
+
+.initials{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+section{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.earthtext{
+  padding-left: 34vw;
+}
+
+h1{
+  font-size: 6rem;
+}
+
+p{
+  width: 800px;
+}
